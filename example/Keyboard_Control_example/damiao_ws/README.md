@@ -54,3 +54,5 @@ make
 - 电机 2：CAN ID `0x02`，MST ID `0x12`
 - 电机 3：CAN ID `0x03`，MST ID `0x13`
 - 通道：`CHANNEL0`
+
+![1280X1280 (1)](三轴机械臂键盘控制程序.assets\1280X1280 (1).PNG)
