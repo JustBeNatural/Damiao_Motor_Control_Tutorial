@@ -2,7 +2,7 @@
 
 # 一、多机控制基础例程
 
-\[catkin\_ws\.zip\]
+ROS2_example/catkin_ws
 
 先把这个文档下载解压到自己的主目录下：
 
