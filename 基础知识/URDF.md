@@ -2,7 +2,7 @@
 
 URDF可视化网站：https://viewer\.robotsfan\.com/
 
-![image-20260608104748192](D:\桌面\实习就业\北京华晟经世\工作\机械臂应用小项目\基础知识\URDF.assets\image-20260608104748192.png)
+![image-20260608104748192](URDF.assets/image-20260608104748192.png)
 
 # 1\.简要介绍
 
@@ -16,9 +16,9 @@ URDF 是一种 **XML （Extensible Markup Language）文件**，它有标签和�
 
 一个 link 的最小例子：
 
-![image-20260608104804834](D:\桌面\实习就业\北京华晟经世\工作\机械臂应用小项目\基础知识\URDF.assets\image-20260608104804834.png)
+![image-20260608104804834](URDF.assets/image-20260608104804834.png)
 
-![image-20260608104816396](D:\桌面\实习就业\北京华晟经世\工作\机械臂应用小项目\基础知识\URDF.assets\image-20260608104816396.png)
+![image-20260608104816396](URDF.assets/image-20260608104816396.png)
 
 # 2\.代码模块
 
@@ -50,7 +50,7 @@ URDF 是一种 **XML （Extensible Markup Language）文件**，它有标签和�
 
 就代表一个link模块。
 
-![1280X1280](D:\桌面\实习就业\北京华晟经世\工作\机械臂应用小项目\基础知识\URDF.assets\1280X1280.PNG)
+![1280X1280](URDF.assets/1280X1280.PNG)
 
 还有其他的\<inertial\>,\<visual\>,\<collision\>就是\<link\>和\<joint\>下面的子模块，这些模块的作用也就是字面意思。
 
