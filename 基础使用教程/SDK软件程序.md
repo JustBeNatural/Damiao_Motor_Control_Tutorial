@@ -2,7 +2,7 @@
 
 # 接线图：
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-126.jpeg)
+![img](SDK软件程序.assets/1776325417790-126.jpeg)
 
 # SDK库代码控制方法
 
@@ -66,13 +66,13 @@ cmake ..
 make
 ```
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-117.png)
+![img](SDK软件程序.assets/1776325417790-117.png)
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-118.png)
+![img](SDK软件程序.assets/1776325417790-118.png)
 
 ### 四、 修改电机波特率（重要！）
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-119.png)
+![img](SDK软件程序.assets/1776325417790-119.png)
 
 先输入s进入Setup Mode
 
@@ -80,7 +80,7 @@ make
 
 这样就行：
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-120.png)
+![img](SDK软件程序.assets/1776325417790-120.png)
 
 ### 五、给USB转CANFD设备设置权限
 
@@ -98,7 +98,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="34b7", ATTR{idProduct}=="6877", MODE="0666"` 
 
 ctrl+o写入，ctrl+x退出，按y并回车保存
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-121.png)
+![img](SDK软件程序.assets/1776325417790-121.png)
 
 输入指令重新加载：
 
@@ -116,13 +116,13 @@ sudo udevadm control --reload-rules` `sudo udevadm trigger
 cd ~/catkin_ws/build` `./dev_sn
 ```
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-122.png)
+![img](SDK软件程序.assets/1776325417790-122.png)
 
 上面图片里的SN后面的一串数字就是该设备的的Serial_Number，
 
 接着复制该Serial_Number，打开main.cpp，替换程序里的Serial_Number，如下图所示：
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-123.png)
+![img](SDK软件程序.assets/1776325417790-123.png)
 
 保存即可
 
@@ -142,9 +142,9 @@ cd ~/catkin_ws/build` `./dm_main
 
 此时你会发现电机亮绿灯，并且旋转
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-124.jpeg)
+![img](SDK软件程序.assets/1776325417790-124.jpeg)
 
-![img](D:\桌面\实习就业\北京华晟经世\工作\达妙电机\基础使用教程\SDK软件程序.assets\1776325417790-125.png)
+![img](SDK软件程序.assets/1776325417790-125.png)
 
 # 总结
 
