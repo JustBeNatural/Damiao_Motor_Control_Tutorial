@@ -8,7 +8,7 @@
 
 ## 准备阶段
 
-源代码在SDK_Control_example里
+源代码在SDK_Control_example里: https://github.com/JustBeNatural/Damiao_Motor_Control_Tutorial/tree/main/SDK_Control_example/catkin_ws
 
 测试环境：Ubuntu22.04
 
