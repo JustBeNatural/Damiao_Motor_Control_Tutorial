@@ -1,0 +1,1 @@
+Invoking command in '/home/huatec/damiao_ws/build/damiao_hw': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/huatec/damiao_ws/src/damiao/damiao_hw -DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_hw

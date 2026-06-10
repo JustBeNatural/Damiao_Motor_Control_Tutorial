@@ -1,0 +1,225 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'damiao_description', 'damiao_hw']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['damiao_description', 'damiao_hw'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75a2e1664df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75a2e16648e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75a2e16648e0>>)
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huatec/damiao_ws'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_description) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/damiao/damiao_description' with type 'ros.ament_cmake' and name 'damiao_description'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/damiao/damiao_hw) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/damiao/damiao_hw' with type 'ros.ament_cmake' and name 'damiao_hw'
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.157s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/huatec/damiao_ws/install
+[0.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'damiao_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huatec/damiao_ws/build/damiao_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huatec/damiao_ws/install/damiao_description', 'merge_install': False, 'path': '/home/huatec/damiao_ws/src/damiao/damiao_description', 'symlink_install': False, 'test_result_base': None}
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'damiao_hw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'damiao_hw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huatec/damiao_ws/build/damiao_hw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huatec/damiao_ws/install/damiao_hw', 'merge_install': False, 'path': '/home/huatec/damiao_ws/src/damiao/damiao_hw', 'symlink_install': False, 'test_result_base': None}
+[0.181s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huatec/damiao_ws/src/damiao/damiao_description' with build type 'ament_cmake'
+[0.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huatec/damiao_ws/src/damiao/damiao_description'
+[0.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huatec/damiao_ws/src/damiao/damiao_hw' with build type 'ament_cmake'
+[0.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huatec/damiao_ws/src/damiao/damiao_hw'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_description -- -j20 -l20
+[0.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huatec/damiao_ws/build/damiao_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_hw -- -j20 -l20
+[0.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_description -- -j20 -l20
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_description
+[0.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(damiao_description)
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_description
+[0.231s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description' for CMake module files
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description' for CMake config files
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_description', 'cmake_prefix_path')
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.dsv'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.sh'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/bin'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/lib/pkgconfig/damiao_description.pc'
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/lib/python3.10/site-packages'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/bin'
+[0.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.ps1'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.dsv'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.sh'
+[0.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.bash'
+[0.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.zsh'
+[0.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huatec/damiao_ws/install/damiao_description/share/colcon-core/packages/damiao_description)
+[0.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(damiao_description)
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description' for CMake module files
+[0.238s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description' for CMake config files
+[0.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_description', 'cmake_prefix_path')
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.ps1'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.dsv'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/hook/cmake_prefix_path.sh'
+[0.239s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/bin'
+[0.239s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/lib/pkgconfig/damiao_description.pc'
+[0.239s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/lib/python3.10/site-packages'
+[0.239s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_description/bin'
+[0.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.sh'
+[0.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.bash'
+[0.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.zsh'
+[0.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huatec/damiao_ws/install/damiao_description/share/colcon-core/packages/damiao_description)
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huatec/damiao_ws/build/damiao_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_hw -- -j20 -l20
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huatec/damiao_ws/build/damiao_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_hw
+[0.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(damiao_hw)
+[0.300s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw' for CMake module files
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huatec/damiao_ws/build/damiao_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_hw
+[0.301s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw' for CMake config files
+[0.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_hw', 'cmake_prefix_path')
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.ps1'
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.dsv'
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.sh'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib'
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_hw', 'ld_library_path_lib')
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.ps1'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.dsv'
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.sh'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/bin'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib/pkgconfig/damiao_hw.pc'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib/python3.10/site-packages'
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/bin'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.sh'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.bash'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.zsh'
+[0.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huatec/damiao_ws/install/damiao_hw/share/colcon-core/packages/damiao_hw)
+[0.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(damiao_hw)
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw' for CMake module files
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw' for CMake config files
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_hw', 'cmake_prefix_path')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/cmake_prefix_path.sh'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('damiao_hw', 'ld_library_path_lib')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/hook/ld_library_path_lib.sh'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/bin'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib/pkgconfig/damiao_hw.pc'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/lib/python3.10/site-packages'
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/huatec/damiao_ws/install/damiao_hw/bin'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.bash'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.zsh'
+[0.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huatec/damiao_ws/install/damiao_hw/share/colcon-core/packages/damiao_hw)
+[0.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.318s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.321s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.332s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huatec/damiao_ws/install/local_setup.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huatec/damiao_ws/install/_local_setup_util_ps1.py'
+[0.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huatec/damiao_ws/install/setup.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huatec/damiao_ws/install/local_setup.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huatec/damiao_ws/install/_local_setup_util_sh.py'
+[0.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huatec/damiao_ws/install/setup.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huatec/damiao_ws/install/local_setup.bash'
+[0.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huatec/damiao_ws/install/setup.bash'
+[0.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huatec/damiao_ws/install/local_setup.zsh'
+[0.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huatec/damiao_ws/install/setup.zsh'

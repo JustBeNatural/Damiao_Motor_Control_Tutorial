@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (damiao_description) JobQueued: {'identifier': 'damiao_description', 'dependencies': OrderedDict()}
+[0.000315] (damiao_hw) JobQueued: {'identifier': 'damiao_hw', 'dependencies': OrderedDict()}
+[0.000391] (damiao_description) JobStarted: {'identifier': 'damiao_description'}
+[0.003061] (damiao_hw) JobStarted: {'identifier': 'damiao_hw'}
+[0.005176] (damiao_description) JobProgress: {'identifier': 'damiao_description', 'progress': 'cmake'}
+[0.005475] (damiao_description) Command: {'cmd': ['/usr/bin/cmake', '/home/huatec/damiao_ws/src/damiao/damiao_description', '-DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_description'], 'cwd': '/home/huatec/damiao_ws/build/damiao_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.006823] (damiao_hw) JobProgress: {'identifier': 'damiao_hw', 'progress': 'cmake'}
+[0.006992] (damiao_hw) Command: {'cmd': ['/usr/bin/cmake', '/home/huatec/damiao_ws/src/damiao/damiao_hw', '-DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_hw'], 'cwd': '/home/huatec/damiao_ws/build/damiao_hw', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_hw'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016305] (damiao_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.016777] (damiao_hw) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099926] (-) TimerEvent: {}
+[0.103213] (damiao_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.103544] (damiao_hw) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.141629] (damiao_hw) StdoutLine: {'line': b'-- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.143320] (damiao_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.156134] (damiao_hw) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.157362] (damiao_hw) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.160613] (damiao_hw) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.165722] (damiao_hw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172259] (damiao_hw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.185995] (damiao_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.186248] (damiao_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.186481] (damiao_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.186940] (damiao_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.187458] (damiao_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.188691] (damiao_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.189488] (damiao_description) StdoutLine: {'line': b'-- Build files have been written to: /home/huatec/damiao_ws/build/damiao_description\n'}
+[0.190623] (damiao_description) CommandEnded: {'returncode': 0}
+[0.190950] (damiao_description) JobProgress: {'identifier': 'damiao_description', 'progress': 'build'}
+[0.191312] (damiao_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huatec/damiao_ws/build/damiao_description', '--', '-j20', '-l20'], 'cwd': '/home/huatec/damiao_ws/build/damiao_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199981] (-) TimerEvent: {}
+[0.262782] (damiao_hw) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.262911] (damiao_description) CommandEnded: {'returncode': 0}
+[0.263273] (damiao_description) JobProgress: {'identifier': 'damiao_description', 'progress': 'install'}
+[0.268906] (damiao_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huatec/damiao_ws/build/damiao_description'], 'cwd': '/home/huatec/damiao_ws/build/damiao_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_description'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.269756] (damiao_hw) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.273385] (damiao_hw) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.273541] (damiao_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.273597] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config\n'}
+[0.273648] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config/controllers.yaml\n'}
+[0.273705] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config/motors.yaml\n'}
+[0.273769] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/ros2_control\n'}
+[0.273797] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/ros2_control/damiao.ros2_control.xacro\n'}
+[0.273867] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/launch\n'}
+[0.273892] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/launch/damiao_ros2_control.launch.py\n'}
+[0.273914] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/urdf\n'}
+[0.273963] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/urdf/damiao_test.urdf.xacro\n'}
+[0.274006] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/package_run_dependencies/damiao_description\n'}
+[0.274030] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/parent_prefix_path/damiao_description\n'}
+[0.274074] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/ament_prefix_path.sh\n'}
+[0.274122] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/ament_prefix_path.dsv\n'}
+[0.274189] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/path.sh\n'}
+[0.274216] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/path.dsv\n'}
+[0.274378] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.bash\n'}
+[0.274410] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.sh\n'}
+[0.274489] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.zsh\n'}
+[0.274516] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.dsv\n'}
+[0.274542] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.dsv\n'}
+[0.274568] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/packages/damiao_description\n'}
+[0.274655] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/cmake/damiao_descriptionConfig.cmake\n'}
+[0.274682] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/cmake/damiao_descriptionConfig-version.cmake\n'}
+[0.274706] (damiao_description) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.xml\n'}
+[0.275423] (damiao_description) CommandEnded: {'returncode': 0}
+[0.283497] (damiao_description) JobEnded: {'identifier': 'damiao_description', 'rc': 0}
+[0.283645] (damiao_hw) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.288434] (damiao_hw) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.295130] (damiao_hw) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.300048] (-) TimerEvent: {}
+[0.302395] (damiao_hw) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.340613] (damiao_hw) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.381991] (damiao_hw) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.382095] (damiao_hw) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huatec/damiao_ws/src/damiao/damiao_hw/include>\n'}
+[0.382126] (damiao_hw) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.382446] (damiao_hw) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.382971] (damiao_hw) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.383040] (damiao_hw) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.383178] (damiao_hw) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.383735] (damiao_hw) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.394304] (damiao_hw) StdoutLine: {'line': b'-- Generating done\n'}
+[0.397745] (damiao_hw) StdoutLine: {'line': b'-- Build files have been written to: /home/huatec/damiao_ws/build/damiao_hw\n'}
+[0.400159] (-) TimerEvent: {}
+[0.500428] (-) TimerEvent: {}
+[0.600824] (-) TimerEvent: {}
+[0.701207] (-) TimerEvent: {}
+[0.801620] (-) TimerEvent: {}
+[0.902003] (-) TimerEvent: {}
+[1.002339] (-) TimerEvent: {}
+[1.102727] (-) TimerEvent: {}
+[1.203202] (-) TimerEvent: {}
+[1.303646] (-) TimerEvent: {}
+[1.404049] (-) TimerEvent: {}
+[1.504511] (-) TimerEvent: {}
+[1.604903] (-) TimerEvent: {}
+[1.705313] (-) TimerEvent: {}
+[1.805624] (-) TimerEvent: {}
+[1.905934] (-) TimerEvent: {}
+[2.006210] (-) TimerEvent: {}
+[2.106398] (-) TimerEvent: {}
+[2.206649] (-) TimerEvent: {}
+[2.306912] (-) TimerEvent: {}
+[2.407092] (-) TimerEvent: {}
+[2.507322] (-) TimerEvent: {}
+[2.607612] (-) TimerEvent: {}
+[2.707869] (-) TimerEvent: {}
+[2.808127] (-) TimerEvent: {}
+[2.908327] (-) TimerEvent: {}
+[3.008568] (-) TimerEvent: {}
+[3.108818] (-) TimerEvent: {}
+[3.209028] (-) TimerEvent: {}
+[3.309392] (-) TimerEvent: {}
+[3.409790] (-) TimerEvent: {}
+[3.510047] (-) TimerEvent: {}
+[3.610191] (-) TimerEvent: {}
+[3.710361] (-) TimerEvent: {}
+[3.810602] (-) TimerEvent: {}
+[3.910993] (-) TimerEvent: {}
+[4.011406] (-) TimerEvent: {}
+[4.111800] (-) TimerEvent: {}
+[4.212188] (-) TimerEvent: {}
+[4.312607] (-) TimerEvent: {}
+[4.413009] (-) TimerEvent: {}
+[4.513378] (-) TimerEvent: {}
+[4.613779] (-) TimerEvent: {}
+[4.714176] (-) TimerEvent: {}
+[4.814603] (-) TimerEvent: {}
+[4.914998] (-) TimerEvent: {}
+[5.015397] (-) TimerEvent: {}
+[5.115726] (-) TimerEvent: {}
+[5.216126] (-) TimerEvent: {}
+[5.316461] (-) TimerEvent: {}
+[5.416855] (-) TimerEvent: {}
+[5.517249] (-) TimerEvent: {}
+[5.617665] (-) TimerEvent: {}
+[5.718050] (-) TimerEvent: {}
+[5.818443] (-) TimerEvent: {}
+[5.918847] (-) TimerEvent: {}
+[6.019238] (-) TimerEvent: {}
+[6.119665] (-) TimerEvent: {}
+[6.220077] (-) TimerEvent: {}
+[6.320398] (-) TimerEvent: {}
+[6.420790] (-) TimerEvent: {}
+[6.521188] (-) TimerEvent: {}
+[6.621614] (-) TimerEvent: {}
+[6.722012] (-) TimerEvent: {}
+[6.822390] (-) TimerEvent: {}
+[6.922778] (-) TimerEvent: {}
+[7.023184] (-) TimerEvent: {}
+[7.123609] (-) TimerEvent: {}
+[7.224013] (-) TimerEvent: {}
+[7.324368] (-) TimerEvent: {}
+[7.424768] (-) TimerEvent: {}
+[7.525171] (-) TimerEvent: {}
+[7.625609] (-) TimerEvent: {}
+[7.726011] (-) TimerEvent: {}
+[7.826398] (-) TimerEvent: {}
+[7.926732] (-) TimerEvent: {}
+[8.027123] (-) TimerEvent: {}
+[8.127517] (-) TimerEvent: {}
+[8.227896] (-) TimerEvent: {}
+[8.328189] (-) TimerEvent: {}
+[8.428593] (-) TimerEvent: {}
+[8.528919] (-) TimerEvent: {}
+[8.629340] (-) TimerEvent: {}
+[8.729723] (-) TimerEvent: {}
+[8.830052] (-) TimerEvent: {}
+[8.930440] (-) TimerEvent: {}
+[9.030801] (-) TimerEvent: {}
+[9.131148] (-) TimerEvent: {}
+[9.231546] (-) TimerEvent: {}
+[9.331937] (-) TimerEvent: {}
+[9.432349] (-) TimerEvent: {}
+[9.532748] (-) TimerEvent: {}
+[9.633146] (-) TimerEvent: {}
+[9.733564] (-) TimerEvent: {}
+[9.833955] (-) TimerEvent: {}
+[9.934366] (-) TimerEvent: {}
+[10.034768] (-) TimerEvent: {}
+[10.135073] (-) TimerEvent: {}
+[10.235413] (-) TimerEvent: {}
+[10.335813] (-) TimerEvent: {}
+[10.436210] (-) TimerEvent: {}
+[10.536616] (-) TimerEvent: {}
+[10.637009] (-) TimerEvent: {}
+[10.737475] (-) TimerEvent: {}
+[10.837939] (-) TimerEvent: {}
+[10.938504] (-) TimerEvent: {}
+[11.038942] (-) TimerEvent: {}
+[11.139238] (-) TimerEvent: {}
+[11.239554] (-) TimerEvent: {}
+[11.339953] (-) TimerEvent: {}
+[11.440382] (-) TimerEvent: {}
+[11.540704] (-) TimerEvent: {}
+[11.641093] (-) TimerEvent: {}
+[11.741401] (-) TimerEvent: {}
+[11.841807] (-) TimerEvent: {}
+[11.942352] (-) TimerEvent: {}
+[12.042789] (-) TimerEvent: {}
+[12.143100] (-) TimerEvent: {}
+[12.243440] (-) TimerEvent: {}
+[12.343796] (-) TimerEvent: {}
+[12.444130] (-) TimerEvent: {}
+[12.544533] (-) TimerEvent: {}
+[12.644932] (-) TimerEvent: {}
+[12.745376] (-) TimerEvent: {}
+[12.845708] (-) TimerEvent: {}
+[12.946108] (-) TimerEvent: {}
+[13.046454] (-) TimerEvent: {}
+[13.146760] (-) TimerEvent: {}
+[13.247073] (-) TimerEvent: {}
+[13.347458] (-) TimerEvent: {}
+[13.447784] (-) TimerEvent: {}
+[13.548237] (-) TimerEvent: {}
+[13.648610] (-) TimerEvent: {}
+[13.748954] (-) TimerEvent: {}
+[13.849395] (-) TimerEvent: {}
+[13.949722] (-) TimerEvent: {}
+[14.050043] (-) TimerEvent: {}
+[14.150377] (-) TimerEvent: {}
+[14.250590] (-) TimerEvent: {}
+[14.350885] (-) TimerEvent: {}
+[14.451207] (-) TimerEvent: {}
+[14.551630] (-) TimerEvent: {}
+[14.652028] (-) TimerEvent: {}
+[14.752432] (-) TimerEvent: {}
+[14.852860] (-) TimerEvent: {}
+[14.953301] (-) TimerEvent: {}
+[15.053849] (-) TimerEvent: {}
+[15.154168] (-) TimerEvent: {}
+[15.254466] (-) TimerEvent: {}
+[15.354781] (-) TimerEvent: {}
+[15.455084] (-) TimerEvent: {}
+[15.555539] (-) TimerEvent: {}
+[15.655953] (-) TimerEvent: {}
+[15.756357] (-) TimerEvent: {}
+[15.856656] (-) TimerEvent: {}
+[15.957041] (-) TimerEvent: {}
+[16.057441] (-) TimerEvent: {}
+[16.157811] (-) TimerEvent: {}
+[16.258212] (-) TimerEvent: {}
+[16.358656] (-) TimerEvent: {}
+[16.459028] (-) TimerEvent: {}
+[16.559403] (-) TimerEvent: {}
+[16.659807] (-) TimerEvent: {}
+[16.760312] (-) TimerEvent: {}
+[16.860793] (-) TimerEvent: {}
+[16.961309] (-) TimerEvent: {}
+[17.061654] (-) TimerEvent: {}
+[17.161900] (-) TimerEvent: {}
+[17.262122] (-) TimerEvent: {}
+[17.362488] (-) TimerEvent: {}
+[17.462822] (-) TimerEvent: {}
+[17.563220] (-) TimerEvent: {}
+[17.663598] (-) TimerEvent: {}
+[17.763929] (-) TimerEvent: {}
+[17.864340] (-) TimerEvent: {}
+[17.964687] (-) TimerEvent: {}
+[18.064974] (-) TimerEvent: {}
+[18.165214] (-) TimerEvent: {}
+[18.265471] (-) TimerEvent: {}
+[18.365856] (-) TimerEvent: {}
+[18.466116] (-) TimerEvent: {}
+[18.566286] (-) TimerEvent: {}
+[18.666696] (-) TimerEvent: {}
+[18.767108] (-) TimerEvent: {}
+[18.867496] (-) TimerEvent: {}
+[18.967829] (-) TimerEvent: {}
+[19.068116] (-) TimerEvent: {}
+[19.168389] (-) TimerEvent: {}
+[19.268775] (-) TimerEvent: {}
+[19.369126] (-) TimerEvent: {}
+[19.469640] (-) TimerEvent: {}
+[19.570083] (-) TimerEvent: {}
+[19.670508] (-) TimerEvent: {}
+[19.770948] (-) TimerEvent: {}
+[19.871444] (-) TimerEvent: {}
+[19.971933] (-) TimerEvent: {}
+[20.072301] (-) TimerEvent: {}
+[20.172565] (-) TimerEvent: {}
+[20.272871] (-) TimerEvent: {}
+[20.373406] (-) TimerEvent: {}
+[20.473734] (-) TimerEvent: {}
+[20.574118] (-) TimerEvent: {}
+[20.674476] (-) TimerEvent: {}
+[20.774922] (-) TimerEvent: {}
+[20.875366] (-) TimerEvent: {}
+[20.975700] (-) TimerEvent: {}
+[21.076098] (-) TimerEvent: {}
+[21.176488] (-) TimerEvent: {}
+[21.276853] (-) TimerEvent: {}
+[21.377298] (-) TimerEvent: {}
+[21.477676] (-) TimerEvent: {}
+[21.577993] (-) TimerEvent: {}
+[21.678332] (-) TimerEvent: {}
+[21.778731] (-) TimerEvent: {}
+[21.879138] (-) TimerEvent: {}
+[21.979573] (-) TimerEvent: {}
+[22.079917] (-) TimerEvent: {}
+[22.180221] (-) TimerEvent: {}
+[22.280546] (-) TimerEvent: {}
+[22.380852] (-) TimerEvent: {}
+[22.481248] (-) TimerEvent: {}
+[22.581664] (-) TimerEvent: {}
+[22.681977] (-) TimerEvent: {}
+[22.782392] (-) TimerEvent: {}
+[22.882740] (-) TimerEvent: {}
+[22.983100] (-) TimerEvent: {}
+[23.083463] (-) TimerEvent: {}
+[23.183784] (-) TimerEvent: {}
+[23.284147] (-) TimerEvent: {}
+[23.384575] (-) TimerEvent: {}
+[23.484887] (-) TimerEvent: {}
+[23.585288] (-) TimerEvent: {}
+[23.685631] (-) TimerEvent: {}
+[23.786074] (-) TimerEvent: {}
+[23.886510] (-) TimerEvent: {}
+[23.986848] (-) TimerEvent: {}
+[24.087226] (-) TimerEvent: {}
+[24.187684] (-) TimerEvent: {}
+[24.288023] (-) TimerEvent: {}
+[24.388444] (-) TimerEvent: {}
+[24.488705] (-) TimerEvent: {}
+[24.588952] (-) TimerEvent: {}
+[24.689358] (-) TimerEvent: {}
+[24.789830] (-) TimerEvent: {}
+[24.890347] (-) TimerEvent: {}
+[24.990699] (-) TimerEvent: {}
+[25.091043] (-) TimerEvent: {}
+[25.191477] (-) TimerEvent: {}
+[25.291979] (-) TimerEvent: {}
+[25.392395] (-) TimerEvent: {}
+[25.492753] (-) TimerEvent: {}
+[25.593105] (-) TimerEvent: {}
+[25.693448] (-) TimerEvent: {}
+[25.793774] (-) TimerEvent: {}
+[25.894074] (-) TimerEvent: {}
+[25.994447] (-) TimerEvent: {}
+[26.094842] (-) TimerEvent: {}
+[26.195177] (-) TimerEvent: {}
+[26.295499] (-) TimerEvent: {}
+[26.395866] (-) TimerEvent: {}
+[26.496298] (-) TimerEvent: {}
+[26.596706] (-) TimerEvent: {}
+[26.697118] (-) TimerEvent: {}
+[26.797580] (-) TimerEvent: {}
+[26.898062] (-) TimerEvent: {}
+[26.998556] (-) TimerEvent: {}
+[27.098913] (-) TimerEvent: {}
+[27.199241] (-) TimerEvent: {}
+[27.299686] (-) TimerEvent: {}
+[27.400001] (-) TimerEvent: {}
+[27.500353] (-) TimerEvent: {}
+[27.600761] (-) TimerEvent: {}
+[27.701109] (-) TimerEvent: {}
+[27.801494] (-) TimerEvent: {}
+[27.901907] (-) TimerEvent: {}
+[28.002325] (-) TimerEvent: {}
+[28.102708] (-) TimerEvent: {}
+[28.203145] (-) TimerEvent: {}
+[28.303597] (-) TimerEvent: {}
+[28.404038] (-) TimerEvent: {}
+[28.504467] (-) TimerEvent: {}
+[28.604823] (-) TimerEvent: {}
+[28.705221] (-) TimerEvent: {}
+[28.805560] (-) TimerEvent: {}
+[28.906031] (-) TimerEvent: {}
+[29.006530] (-) TimerEvent: {}
+[29.106890] (-) TimerEvent: {}
+[29.207319] (-) TimerEvent: {}
+[29.307896] (-) TimerEvent: {}
+[29.408339] (-) TimerEvent: {}
+[29.508676] (-) TimerEvent: {}
+[29.609035] (-) TimerEvent: {}
+[29.709517] (-) TimerEvent: {}
+[29.809871] (-) TimerEvent: {}
+[29.910200] (-) TimerEvent: {}
+[30.010596] (-) TimerEvent: {}
+[30.110979] (-) TimerEvent: {}
+[30.211341] (-) TimerEvent: {}
+[30.311754] (-) TimerEvent: {}
+[30.312844] (damiao_hw) CommandEnded: {'returncode': 0}
+[30.314835] (damiao_hw) JobProgress: {'identifier': 'damiao_hw', 'progress': 'build'}
+[30.317007] (damiao_hw) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huatec/damiao_ws/build/damiao_hw', '--', '-j20', '-l20'], 'cwd': '/home/huatec/damiao_ws/build/damiao_hw', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_hw'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.387780] (damiao_hw) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/damiao_driver.dir/src/damiao.cpp.o\n'}
+[30.388005] (damiao_hw) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/damiao_driver.dir/src/usb_class.cpp.o\n'}
+[30.411821] (-) TimerEvent: {}
+[30.511982] (-) TimerEvent: {}
+[30.612152] (-) TimerEvent: {}
+[30.712353] (-) TimerEvent: {}
+[30.812499] (-) TimerEvent: {}
+[30.912634] (-) TimerEvent: {}
+[30.932336] (damiao_hw) StdoutLine: {'line': b'[ 42%] Linking CXX shared library libdamiao_driver.so\n'}
+[31.005856] (damiao_hw) StdoutLine: {'line': b'[ 42%] Built target damiao_driver\n'}
+[31.012749] (-) TimerEvent: {}
+[31.021429] (damiao_hw) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/dm_hw.dir/src/dm_hw.cpp.o\n'}
+[31.112879] (-) TimerEvent: {}
+[31.213064] (-) TimerEvent: {}
+[31.313275] (-) TimerEvent: {}
+[31.413434] (-) TimerEvent: {}
+[31.513596] (-) TimerEvent: {}
+[31.613743] (-) TimerEvent: {}
+[31.713886] (-) TimerEvent: {}
+[31.814031] (-) TimerEvent: {}
+[31.914224] (-) TimerEvent: {}
+[32.014380] (-) TimerEvent: {}
+[32.114531] (-) TimerEvent: {}
+[32.214681] (-) TimerEvent: {}
+[32.314830] (-) TimerEvent: {}
+[32.414977] (-) TimerEvent: {}
+[32.515167] (-) TimerEvent: {}
+[32.615359] (-) TimerEvent: {}
+[32.715546] (-) TimerEvent: {}
+[32.815683] (-) TimerEvent: {}
+[32.901716] (damiao_hw) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libdm_hw.so\n'}
+[32.915757] (-) TimerEvent: {}
+[33.009368] (damiao_hw) StdoutLine: {'line': b'[ 71%] Built target dm_hw\n'}
+[33.015846] (-) TimerEvent: {}
+[33.025013] (damiao_hw) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/motor_test.dir/test/motor_test.cpp.o\n'}
+[33.115981] (-) TimerEvent: {}
+[33.216195] (-) TimerEvent: {}
+[33.316436] (-) TimerEvent: {}
+[33.416607] (-) TimerEvent: {}
+[33.516747] (-) TimerEvent: {}
+[33.616916] (-) TimerEvent: {}
+[33.717087] (-) TimerEvent: {}
+[33.817321] (-) TimerEvent: {}
+[33.917500] (-) TimerEvent: {}
+[34.017680] (-) TimerEvent: {}
+[34.117893] (-) TimerEvent: {}
+[34.218042] (-) TimerEvent: {}
+[34.318255] (-) TimerEvent: {}
+[34.418490] (-) TimerEvent: {}
+[34.518699] (-) TimerEvent: {}
+[34.618859] (-) TimerEvent: {}
+[34.719066] (-) TimerEvent: {}
+[34.743659] (damiao_hw) StdoutLine: {'line': b'[100%] Linking CXX executable motor_test\n'}
+[34.819151] (-) TimerEvent: {}
+[34.841857] (damiao_hw) StdoutLine: {'line': b'[100%] Built target motor_test\n'}
+[34.851534] (damiao_hw) CommandEnded: {'returncode': 0}
+[34.851970] (damiao_hw) JobProgress: {'identifier': 'damiao_hw', 'progress': 'install'}
+[34.852134] (damiao_hw) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huatec/damiao_ws/build/damiao_hw'], 'cwd': '/home/huatec/damiao_ws/build/damiao_hw', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huatec/damiao_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7898/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huatec'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/huatec/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7898/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huatec'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('NVM_BIN', '/home/huatec/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/huatec/.nvm/versions/node/v18.20.8/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ae07fd5f-1.11-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1455'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('COLORTERM', 'truecolor'), ('_CONDA_ROOT', '/home/huatec/miniconda3'), ('NVM_DIR', '/home/huatec/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7898/'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'huatec'), ('ALL_PROXY', 'socks://127.0.0.1:7898/'), ('http_proxy', 'http://127.0.0.1:7898/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huatec'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huatec/.local/bin:/home/huatec/.codex/tmp/arg0/codex-arg0UVB8qu:/home/huatec/miniconda3/bin:/home/huatec/miniconda3/condabin:/home/huatec/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/huatec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huatec/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huatec-B660-GAMING-X:@/tmp/.ICE-unix/1455,unix/huatec-B660-GAMING-X:/tmp/.ICE-unix/1455'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd0b8841_fe60_49a5_810b_52883bdf3d56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.503'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huatec/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019da9f9-1350-7333-a847-915b3332dd11'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/huatec/damiao_ws/build/damiao_hw'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huatec/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huatec/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=063e4ffcca6b91eab14a5dd169e57806'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7898/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/huatec/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '6270'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[34.857714] (damiao_hw) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.857813] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml\n'}
+[34.857873] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include\n'}
+[34.857929] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw\n'}
+[34.857984] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/damiao.h\n'}
+[34.858054] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/dm_hw.h\n'}
+[34.858101] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/usb_class.h\n'}
+[34.858149] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/pub_user.h\n'}
+[34.858175] (damiao_hw) StdoutLine: {'line': b'-- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml\n'}
+[34.858199] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/libdm_hw.so\n'}
+[34.858674] (damiao_hw) StdoutLine: {'line': b'-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/libdm_hw.so" to ""\n'}
+[34.858728] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/libdamiao_driver.so\n'}
+[34.859017] (damiao_hw) StdoutLine: {'line': b'-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/libdamiao_driver.so" to "/home/huatec/catkin_ws/u2canfd/lib/linux"\n'}
+[34.859065] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/damiao_hw/motor_test\n'}
+[34.859412] (damiao_hw) StdoutLine: {'line': b'-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/damiao_hw/motor_test" to ""\n'}
+[34.859462] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/package_run_dependencies/damiao_hw\n'}
+[34.859520] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/parent_prefix_path/damiao_hw\n'}
+[34.859575] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.sh\n'}
+[34.859623] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.dsv\n'}
+[34.859668] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.sh\n'}
+[34.859715] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.dsv\n'}
+[34.859757] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.bash\n'}
+[34.859816] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.sh\n'}
+[34.859840] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.zsh\n'}
+[34.859890] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.dsv\n'}
+[34.859915] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.dsv\n'}
+[34.859961] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/packages/damiao_hw\n'}
+[34.860008] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/damiao_hw\n'}
+[34.860054] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig.cmake\n'}
+[34.860114] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig-version.cmake\n'}
+[34.860139] (damiao_hw) StdoutLine: {'line': b'-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.xml\n'}
+[34.860748] (damiao_hw) CommandEnded: {'returncode': 0}
+[34.868011] (damiao_hw) JobEnded: {'identifier': 'damiao_hw', 'rc': 0}
+[34.868273] (-) EventReactorShutdown: {}

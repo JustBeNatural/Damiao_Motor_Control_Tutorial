@@ -1,0 +1,26 @@
+joint_1:
+  device_serial: "FB8FBE34E6C8743A8B6BB0AEEB97085F"
+  nom_baud: 1000000
+  dat_baud: 5000000
+  can_id: 1
+  mst_id: 17
+  channel: 0
+  motor_type: DM4340
+
+joint_2:
+  device_serial: "FB8FBE34E6C8743A8B6BB0AEEB97085F"
+  nom_baud: 1000000
+  dat_baud: 5000000
+  can_id: 2
+  mst_id: 18
+  channel: 0
+  motor_type: DM4310
+
+joint_3:
+  device_serial: "FB8FBE34E6C8743A8B6BB0AEEB97085F"
+  nom_baud: 1000000
+  dat_baud: 5000000
+  can_id: 3
+  mst_id: 19
+  channel: 0
+  motor_type: DM4310

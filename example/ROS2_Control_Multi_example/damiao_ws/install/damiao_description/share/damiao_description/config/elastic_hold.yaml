@@ -1,0 +1,9 @@
+elastic_hold:
+  ros__parameters:
+    update_rate: 50.0
+    kp: 2.0
+    kd: 0.1
+    feedforward: 0.0
+    velocity_des: 0.0
+    capture_initial_positions: false
+    targets: [1.4, 0.5, 2.2]

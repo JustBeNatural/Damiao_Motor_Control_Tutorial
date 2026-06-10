@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huatec/damiao_ws/src/damiao/damiao_hw/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huatec/damiao_ws/build/damiao_hw
+[ 14%] Building CXX object CMakeFiles/damiao_driver.dir/src/damiao.cpp.o
+[ 28%] Building CXX object CMakeFiles/damiao_driver.dir/src/usb_class.cpp.o
+[ 42%] Linking CXX shared library libdamiao_driver.so
+[ 42%] Built target damiao_driver
+[ 57%] Building CXX object CMakeFiles/dm_hw.dir/src/dm_hw.cpp.o
+[ 71%] Linking CXX shared library libdm_hw.so
+[ 71%] Built target dm_hw
+[ 85%] Building CXX object CMakeFiles/motor_test.dir/test/motor_test.cpp.o
+[100%] Linking CXX executable motor_test
+[100%] Built target motor_test
+-- Install configuration: ""
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/damiao.h
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/dm_hw.h
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/usb_class.h
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/pub_user.h
+-- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/libdm_hw.so
+-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/libdm_hw.so" to ""
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/libdamiao_driver.so
+-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/libdamiao_driver.so" to "/home/huatec/catkin_ws/u2canfd/lib/linux"
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/lib/damiao_hw/motor_test
+-- Set runtime path of "/home/huatec/damiao_ws/install/damiao_hw/lib/damiao_hw/motor_test" to ""
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/package_run_dependencies/damiao_hw
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/parent_prefix_path/damiao_hw
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.sh
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.dsv
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.sh
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.dsv
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.bash
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.sh
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.zsh
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.dsv
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.dsv
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/packages/damiao_hw
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/damiao_hw
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig.cmake
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig-version.cmake
+-- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.xml

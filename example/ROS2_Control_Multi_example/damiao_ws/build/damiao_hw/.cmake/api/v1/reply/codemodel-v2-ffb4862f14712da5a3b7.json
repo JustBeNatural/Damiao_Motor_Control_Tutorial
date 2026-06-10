@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a184676794dd68897379.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "damiao_hw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "damiao_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-damiao_driver-b351f16b4aa2de7f0781.json",
+					"name" : "damiao_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "damiao_hw_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-damiao_hw_uninstall-1ed673ac5221239e5538.json",
+					"name" : "damiao_hw_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_hw::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_hw-fe4cf6eaec8ba9f978b5.json",
+					"name" : "dm_hw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_test-d125a0fe28c16046c7ba.json",
+					"name" : "motor_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7ae89db0b0a7900bb94e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huatec/damiao_ws/build/damiao_hw",
+		"source" : "/home/huatec/damiao_ws/src/damiao/damiao_hw"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

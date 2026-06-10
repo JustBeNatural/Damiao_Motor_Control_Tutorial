@@ -1,0 +1,9 @@
+<library path="dm_hw"> 
+  <class name="damiao/DmHW"
+         type="damiao::DmHW"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for Damiao motors over USB2CANFD SDK.
+    </description>
+  </class>
+</library>

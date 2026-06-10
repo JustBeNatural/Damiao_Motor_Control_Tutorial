@@ -1,0 +1,4 @@
+source;share/damiao_hw/local_setup.bash
+source;share/damiao_hw/local_setup.dsv
+source;share/damiao_hw/local_setup.sh
+source;share/damiao_hw/local_setup.zsh

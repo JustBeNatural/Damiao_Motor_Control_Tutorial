@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/huatec/damiao_ws/build/damiao_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_hw -- -j20 -l20
+[0.043s] [ 42%] Built target damiao_driver
+[0.061s] [ 71%] Built target dm_hw
+[0.078s] [100%] Built target motor_test
+[0.088s] Invoked command in '/home/huatec/damiao_ws/build/damiao_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_hw -- -j20 -l20
+[0.089s] Invoking command in '/home/huatec/damiao_ws/build/damiao_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_hw
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml
+[0.094s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include
+[0.094s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/damiao.h
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/dm_hw.h
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/usb_class.h
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/include/damiao_hw/pub_user.h
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/dm_hw_plugins.xml
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/lib/libdm_hw.so
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/lib/libdamiao_driver.so
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/lib/damiao_hw/motor_test
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/package_run_dependencies/damiao_hw
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/parent_prefix_path/damiao_hw
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.sh
+[0.096s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/environment/path.dsv
+[0.096s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.bash
+[0.096s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.sh
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.zsh
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/local_setup.dsv
+[0.097s] -- Installing: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.dsv
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/packages/damiao_hw
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/damiao_hw
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig.cmake
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/cmake/damiao_hwConfig-version.cmake
+[0.097s] -- Up-to-date: /home/huatec/damiao_ws/install/damiao_hw/share/damiao_hw/package.xml
+[0.097s] Invoked command in '/home/huatec/damiao_ws/build/damiao_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(damiao) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_hw

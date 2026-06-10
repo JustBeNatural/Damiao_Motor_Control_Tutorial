@@ -1,0 +1,12 @@
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/uninstall.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/damiao_hw_uninstall.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/damiao_driver.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/dm_hw.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/motor_test.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/test.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/edit_cache.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/rebuild_cache.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/list_install_components.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/install.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/install/local.dir
+/home/huatec/damiao_ws/build/damiao_hw/CMakeFiles/install/strip.dir

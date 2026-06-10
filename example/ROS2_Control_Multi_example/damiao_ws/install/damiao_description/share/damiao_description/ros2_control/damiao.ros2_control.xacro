@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="damiao_joint_control" params="joint_name joint_config">
+    <joint name="${joint_name}">
+      <param name="device_serial">${joint_config['device_serial']}</param>
+      <param name="nom_baud">${joint_config['nom_baud']}</param>
+      <param name="dat_baud">${joint_config['dat_baud']}</param>
+      <param name="can_id">${joint_config['can_id']}</param>
+      <param name="mst_id">${joint_config['mst_id']}</param>
+      <param name="channel">${joint_config['channel']}</param>
+      <param name="motor_type">${joint_config['motor_type']}</param>
+
+      <command_interface name="position_des"/>
+      <command_interface name="velocity_des"/>
+      <command_interface name="kp"/>
+      <command_interface name="kd"/>
+      <command_interface name="feedforward"/>
+
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="damiao_joint_control_list" params="joint_names motors_config">
+    <xacro:if value="${joint_names}">
+      <xacro:damiao_joint_control
+        joint_name="${joint_names[0]}"
+        joint_config="${motors_config[joint_names[0]]}"/>
+      <xacro:damiao_joint_control_list joint_names="${joint_names[1:]}" motors_config="${motors_config}"/>
+    </xacro:if>
+  </xacro:macro>
+
+  <xacro:macro name="damiao">
+    <xacro:property name="motors_config" value="${xacro.load_yaml('$(find damiao_description)/config/motors.yaml')}"/>
+    <xacro:property name="joint_names" value="${list(motors_config.keys())}"/>
+
+    <ros2_control name="multi_joints" type="system">
+      <hardware>
+        <plugin>damiao/DmHW</plugin>
+      </hardware>
+      <xacro:damiao_joint_control_list joint_names="${joint_names}" motors_config="${motors_config}"/>
+    </ros2_control>
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libdamiao_driver.so -o libdamiao_driver.so CMakeFiles/damiao_driver.dir/src/damiao.cpp.o CMakeFiles/damiao_driver.dir/src/usb_class.cpp.o  -Wl,-rpath,/home/huatec/catkin_ws/u2canfd/lib/linux:/usr/local/lib: /home/huatec/catkin_ws/u2canfd/lib/linux/libdm_device.so /usr/local/lib/libusb-1.0.so -lusb-1.0 /usr/lib/x86_64-linux-gnu/libudev.so 

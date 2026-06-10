@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/huatec/damiao_ws/src/damiao/damiao_description -DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_description
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /home/huatec/miniconda3/bin/python3 (found version "3.13.12") found components: Interpreter 
+[0.494s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.510s] Traceback (most recent call last):
+[0.512s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.512s]     from catkin_pkg.package import parse_package_string
+[0.512s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.515s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.515s]   execute_process(/home/huatec/miniconda3/bin/python3
+[0.515s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.515s]   /home/huatec/damiao_ws/src/damiao/damiao_description/package.xml
+[0.515s]   /home/huatec/damiao_ws/build/damiao_description/ament_cmake_core/package.cmake)
+[0.515s]   returned error code 1
+[0.515s] Call Stack (most recent call first):
+[0.515s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.515s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.515s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[0.515s] 
+[0.515s] 
+[0.515s] -- Configuring incomplete, errors occurred!
+[0.515s] See also "/home/huatec/damiao_ws/build/damiao_description/CMakeFiles/CMakeOutput.log".
+[0.523s] Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/huatec/damiao_ws/src/damiao/damiao_description -DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_description

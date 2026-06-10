@@ -1,0 +1,41 @@
+[0.006s] Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/huatec/damiao_ws/src/damiao/damiao_description -DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_description
+[0.016s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.143s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.186s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.186s] -- Added test 'lint_cmake' to check CMake code style
+[0.186s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.187s] -- Added test 'xmllint' to check XML markup files
+[0.187s] -- Configuring done
+[0.188s] -- Generating done
+[0.189s] -- Build files have been written to: /home/huatec/damiao_ws/build/damiao_description
+[0.190s] Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/huatec/damiao_ws/src/damiao/damiao_description -DCMAKE_INSTALL_PREFIX=/home/huatec/damiao_ws/install/damiao_description
+[0.191s] Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_description -- -j20 -l20
+[0.263s] Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/huatec/damiao_ws/build/damiao_description -- -j20 -l20
+[0.269s] Invoking command in '/home/huatec/damiao_ws/build/damiao_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_description
+[0.273s] -- Install configuration: ""
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config/controllers.yaml
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/config/motors.yaml
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/ros2_control
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/ros2_control/damiao.ros2_control.xacro
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/launch
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/launch/damiao_ros2_control.launch.py
+[0.273s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/urdf
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/urdf/damiao_test.urdf.xacro
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/package_run_dependencies/damiao_description
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/parent_prefix_path/damiao_description
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/ament_prefix_path.sh
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/ament_prefix_path.dsv
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/path.sh
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/environment/path.dsv
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.bash
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.sh
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.zsh
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/local_setup.dsv
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.dsv
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/ament_index/resource_index/packages/damiao_description
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/cmake/damiao_descriptionConfig.cmake
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/cmake/damiao_descriptionConfig-version.cmake
+[0.274s] -- Installing: /home/huatec/damiao_ws/install/damiao_description/share/damiao_description/package.xml
+[0.275s] Invoked command in '/home/huatec/damiao_ws/build/damiao_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/huatec/damiao_ws/build/damiao_description
